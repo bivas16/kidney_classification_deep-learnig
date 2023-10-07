@@ -1,1 +1,1 @@
-# kidney_classification_deep-learnig
+# kidney_classification_deep-learning
