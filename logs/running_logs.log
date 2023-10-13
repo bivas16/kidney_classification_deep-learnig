@@ -1,1 +1,110 @@
 [2023-10-07 15:45:17,574: INFO: main: welcome to the first custom log]
+[2023-10-12 19:29:55,751: ERROR: main: name 'STAGE_NAME' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    logger.info(f"<<<< {STAGE_NAME} has started >>>>>")
+NameError: name 'STAGE_NAME' is not defined
+[2023-10-12 19:30:26,170: INFO: main: <<<< Data Injestion Stage has started >>>>>]
+[2023-10-12 19:30:26,170: ERROR: main: __init__() missing 2 required positional arguments: 'config_file_path' and 'params_file_path']
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/src/cnnClassifier/pipeline/stage_01_data_injestion.py", line 12, in main
+    config = ConfigurationManager()
+TypeError: __init__() missing 2 required positional arguments: 'config_file_path' and 'params_file_path'
+[2023-10-12 19:32:05,401: INFO: main: <<<< Data Injestion Stage has started >>>>>]
+[2023-10-12 19:32:05,401: ERROR: main: __init__() missing 2 required positional arguments: 'config_file_path' and 'params_file_path']
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/src/cnnClassifier/pipeline/stage_01_data_injestion.py", line 12, in main
+    config = ConfigurationManager()
+TypeError: __init__() missing 2 required positional arguments: 'config_file_path' and 'params_file_path'
+[2023-10-12 19:35:45,896: INFO: main: <<<< Data Injestion Stage has started >>>>>]
+[2023-10-12 19:35:45,896: ERROR: main: __init__() missing 2 required positional arguments: 'config_file_path' and 'params_file_path']
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/src/cnnClassifier/pipeline/stage_01_data_injestion.py", line 12, in main
+    config = ConfigurationManager()
+TypeError: __init__() missing 2 required positional arguments: 'config_file_path' and 'params_file_path'
+[2023-10-12 19:37:59,435: INFO: main: <<<< Data Injestion Stage has started >>>>>]
+[2023-10-12 19:37:59,436: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-12 19:37:59,436: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-12 19:37:59,436: INFO: common: created directory at: artifacts]
+[2023-10-12 19:37:59,437: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'"]
+Traceback (most recent call last):
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/src/cnnClassifier/pipeline/stage_01_data_injestion.py", line 13, in main
+    data_injestion_config = config.get_data_injestion_config()
+  File "/Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/src/cnnClassifier/config/configuration.py", line 16, in get_data_injestion_config
+    create_directories([config.root_dir])
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+  File "/Users/bivasbisht/miniforge3/envs/kidney/lib/python3.8/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2023-10-13 10:08:39,788: INFO: main: <<<< Data Injestion Stage has started >>>>>]
+[2023-10-13 10:08:39,789: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-10-13 10:08:39,789: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-13 10:08:39,789: INFO: common: created directory at: artifacts]
+[2023-10-13 10:08:39,789: INFO: common: created directory at: artifacts/data_injestion]
+[2023-10-13 10:08:39,789: INFO: data_injestion: Downloading data from https://drive.google.com/file/d/17TCF4Q0VmWnpfeML-3O5npF2-C4UYlhe/view?usp=sharing into file artifacts/data_injestion/data.zip]
+[2023-10-13 10:09:54,422: INFO: data_injestion: Downloaded data from https://drive.google.com/file/d/17TCF4Q0VmWnpfeML-3O5npF2-C4UYlhe/view?usp=sharing into artifacts/data_injestion/data.zip]
+[2023-10-13 10:10:03,106: INFO: main: Data Injestion Stage is completed]
