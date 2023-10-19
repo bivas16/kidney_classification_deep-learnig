@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/mlruns/0/4676c10b533c4cd6ac766df6ce44898d/artifacts
+end_time: 1697695722117
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4676c10b533c4cd6ac766df6ce44898d
+run_name: rumbling-bat-602
+run_uuid: 4676c10b533c4cd6ac766df6ce44898d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697695714747
+status: 3
+tags: []
+user_id: bivasbisht

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/mlruns/0/7b91d04175a84dc78fa0d026769a0f0b/artifacts
+end_time: 1697697054464
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b91d04175a84dc78fa0d026769a0f0b
+run_name: overjoyed-vole-589
+run_uuid: 7b91d04175a84dc78fa0d026769a0f0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697697047665
+status: 3
+tags: []
+user_id: bivasbisht

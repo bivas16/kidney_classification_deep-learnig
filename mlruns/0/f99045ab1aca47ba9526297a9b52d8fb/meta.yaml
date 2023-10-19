@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/mlruns/0/f99045ab1aca47ba9526297a9b52d8fb/artifacts
+end_time: 1697695001336
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f99045ab1aca47ba9526297a9b52d8fb
+run_name: clean-grouse-966
+run_uuid: f99045ab1aca47ba9526297a9b52d8fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697694994289
+status: 3
+tags: []
+user_id: bivasbisht

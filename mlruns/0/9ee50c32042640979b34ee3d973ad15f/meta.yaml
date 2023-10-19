@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/mlruns/0/9ee50c32042640979b34ee3d973ad15f/artifacts
+end_time: 1697697642669
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ee50c32042640979b34ee3d973ad15f
+run_name: suave-fawn-812
+run_uuid: 9ee50c32042640979b34ee3d973ad15f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697697635818
+status: 3
+tags: []
+user_id: bivasbisht
