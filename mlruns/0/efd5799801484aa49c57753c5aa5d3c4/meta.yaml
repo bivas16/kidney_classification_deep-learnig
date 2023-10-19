@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bivasbisht/Deep-Learning_project/kidney_classification_deep-learnig/mlruns/0/efd5799801484aa49c57753c5aa5d3c4/artifacts
+end_time: 1697673552936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: efd5799801484aa49c57753c5aa5d3c4
+run_name: legendary-kit-413
+run_uuid: efd5799801484aa49c57753c5aa5d3c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697673546206
+status: 3
+tags: []
+user_id: bivasbisht
